@@ -1,0 +1,116 @@
+package hangman;
+
+class ShowHangman
+{
+    void show(int x)
+    {
+        switch(x)
+        {
+            case 0: System.out.println("---------------------------");
+                    System.out.println("            |");
+                    System.out.println("            |");
+                    System.out.println("            |");
+                    System.out.println("           ***");
+                    System.out.println("          *   *          YOU ARE DEAD!!!!!");
+                    System.out.println("           *** ");
+                    System.out.println("            |");
+                    System.out.println("           /|\\ ");
+                    System.out.println("          / | \\ ");
+                    System.out.println("            |");
+                    System.out.println("            |");
+                    System.out.println("           / \\ ");
+                    System.out.println("          /   \\ ");
+                    break;
+            case 1: System.out.println("---------------------------");
+                    System.out.println("            |");
+                    System.out.println("            |");
+                    System.out.println("            |");
+                    System.out.println("           ***");
+                    System.out.println("          *   *");
+                    System.out.println("           ***             Just one last time.....go for it!!");
+                    System.out.println("            |");
+                    System.out.println("           /|\\ ");
+                    System.out.println("          / | \\ ");
+                    System.out.println("            |");
+                    System.out.println("            |");
+                    System.out.println("           / \\ ");
+                    System.out.println("          /   \\ ");
+                    break;
+            case 2: System.out.println("---------------------------");
+                    System.out.println("            |");
+                    System.out.println("            |");
+                    System.out.println("            |");
+                    System.out.println("           ***");
+                    System.out.println("          *   *");
+                    System.out.println("           *** ");
+                    System.out.println("            |");
+                    System.out.println("           /|\\             Okay...down to the last two chances..");
+                    System.out.println("          / | \\ ");
+                    System.out.println("            |");
+                    System.out.println("            |");
+                    System.out.println("           /| ");
+                    System.out.println("          / | ");
+                    break;
+            case 3: System.out.println("---------------------------");
+                    System.out.println("            |");
+                    System.out.println("            |");
+                    System.out.println("            |");
+                    System.out.println("           ***");
+                    System.out.println("          *   *");
+                    System.out.println("           ***               C'mon, C'mon it's still not the end!!");
+                    System.out.println("            |");
+                    System.out.println("           /|\\ ");
+                    System.out.println("          / | \\ ");
+                    System.out.println("            |");
+                    System.out.println("            |");
+                    System.out.println("            |");
+                    break;
+            case 4: System.out.println("---------------------------");
+                    System.out.println("            |");
+                    System.out.println("            |");
+                    System.out.println("            |");
+                    System.out.println("           ***");
+                    System.out.println("          *   *");
+                    System.out.println("           ***                There's still time..... ");
+                    System.out.println("            |");
+                    System.out.println("           / \\ ");
+                    System.out.println("          /   \\ ");
+                    break;      
+            case 5: System.out.println("---------------------------");
+                    System.out.println("            |");
+                    System.out.println("            |");
+                    System.out.println("            |");
+                    System.out.println("           ***");
+                    System.out.println("          *   *");
+                    System.out.println("           ***               It's getting scary! Only 5 more to go....");
+                    System.out.println("            |");
+                    System.out.println("            |\\ ");
+                    System.out.println("            | \\ ");
+                    break;
+            case 6: System.out.println("---------------------------");
+                    System.out.println("            |");
+                    System.out.println("            |");
+                    System.out.println("            |");
+                    System.out.println("           ***");
+                    System.out.println("          *   *               Oh no! One more gone! 6 chances are left though, don't give up!");
+                    System.out.println("           *** ");
+                    break;
+            case 7: System.out.println("---------------------------");
+                    System.out.println("            |");
+                    System.out.println("            |");
+                    System.out.println("            |");
+                    System.out.println("           ***                 Still left with 7 chances...");
+                    System.out.println("          *   *");
+                    break;
+            case 8: System.out.println("---------------------------");
+                    System.out.println("            |");
+                    System.out.println("            |");
+                    System.out.println("            |                  Oops! One more gone!");
+                    break;
+            case 9: System.out.println("---------------------------      You are still left with 9 chances....go on!!");
+                    break;
+            case 10:System.out.println("Let's begin...you've got 10 chances, use them wisely.");
+                    break;
+        }
+    }
+}
